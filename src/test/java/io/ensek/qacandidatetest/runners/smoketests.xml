@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite">
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <listeners>
+
+    </listeners>
+    <test name="Smoke Test">
+        <classes>
+            <class name="io.ensek.qacandidatetest.testcases.ApiTests"/>
+        </classes>
+    </test>
+</suite>
